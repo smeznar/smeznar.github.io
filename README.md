@@ -1,3 +1,9 @@
+### Visit the website by [clicking here](https://smeznar.github.io/).
+
+# About
+This is my personal website. It's waiting for when I'll have time to update it. It is made from the template avalible in [this repository](https://github.com/RyanFitzgerald/devportfolio) made by [RyanFitzgerald](https://github.com/RyanFitzgerald). On it you can find some of my information and ways to contact me. It's very CV like and also has some projects I'm working on. If you want to see some of my other projects, you should visit my [Github page](https://github.com/smeznar).
+
+<!--
 # Dev Portfolio
 
 This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
@@ -104,7 +110,6 @@ If you wish to have a sticky (fixed) header, you simply need to add a class of `
 
 ```HTML
 <header class="sticky">
-    <!-- Header content -->
 </header>
 ```
 
@@ -172,7 +177,6 @@ The Project section contains a number of `.project` elements that represent each
     <div class="project-image">
         <img src="images/project.jpg" />
     </div>
-    <!-- End .project-image -->
 
     <div class="project-info">
         <h3>Project Name Here</h3>
@@ -181,14 +185,12 @@ The Project section contains a number of `.project` elements that represent each
         </p>
         <a href="#">View Project</a>
     </div>
-    <!-- End .project-info -->
 </div>
 ```
 
 If you want to hide some projects by default, you can throw them in an additional row and add the markup for the "Show More" button. This would be done as follows:
 
 ```HTML
-<!-- Projects Above -->
 
 <a id="view-more-projects" href="#">View More Projects</a>
 <div id="more-projects" class="row">
@@ -196,7 +198,6 @@ If you want to hide some projects by default, you can throw them in an additiona
         <div class="project-image">
             <img src="images/project.jpg" />
         </div>
-        <!-- End .project-image -->
         <div class="project-info">
             <h3>Project Name Here</h3>
             <p>
@@ -204,9 +205,7 @@ If you want to hide some projects by default, you can throw them in an additiona
             </p>
             <a href="#">View Project</a>
         </div>
-        <!-- End .project-info -->
     </div>
-    <!-- End .project -->
 </div>
 ```
 
@@ -225,7 +224,6 @@ If you do not wish to have a project image associated with a project, you can si
         </p>
         <a href="#">View Project</a>
     </div>
-    <!-- End .project-info -->
 </div>
 ```
 
@@ -288,10 +286,8 @@ The template comes with an optional section that can be added to the page markup
             </li>
         </ul>
     </div>
-    <!-- End .optional-section-block -->
 
 </div>
-<!-- End .optional-section -->
 ```
 
 You can copy .optional-section-block for each new item you wish you have in the optional section. Also, the background-alt class may need to be removed depending on where the optional section is placed in your layout as this adds the grey background. If you play it at the bottom after "Skills", it can be used as is. Also, by default the border is applied at the top, but this can also be adjusted as needed.
@@ -333,7 +329,7 @@ The optional section blocks have styling for h3 (the block title), h4, p, and ul
 * Fixed menu toggle on mobile devices
 * Fixed z-index / scrolling issue with mobile menu
 * Mobile menu now closes once a nav element is hit
-
+--> 
 ## License
 
 Completely free (MIT)! See [LICENSE.md](LICENSE.md) for more.
