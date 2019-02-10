@@ -1,7 +1,10 @@
 ### Visit the website by [clicking here](https://smeznar.github.io/).
 
 # About
-This is my personal website. It's waiting for when I'll have time to update it. It is made from the template avalible in [this repository](https://github.com/RyanFitzgerald/devportfolio) made by [RyanFitzgerald](https://github.com/RyanFitzgerald). On it you can find some of my information and ways to contact me. It's very CV like and also has some projects I'm working on. If you want to see some of my other projects, you should visit my [Github page](https://github.com/smeznar).
+This is my personal website. It is made from the template avalible in [this repository](https://github.com/RyanFitzgerald/devportfolio) made by [RyanFitzgerald](https://github.com/RyanFitzgerald). On it you can find some of my information and ways to contact me. It's very CV like and also has some projects I'm working on. If you want to see some of my other projects, you should visit my [Github page](https://github.com/smeznar).
+
+# Images
+The volleyball picture is taken from [this adress](https://cf5.s3.souqcdn.com/item/2018/11/12/40/72/67/08/item_XL_40726708_1963b16d172ee.jpg), the image on top is from the template and the other two are made by me. 
 
 <!--
 # Dev Portfolio
