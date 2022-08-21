@@ -1,6 +1,8 @@
 ---
 ---
 
+@string{aps = {American Physical Society,}}
+
 @article{meznar2020snore,
   abbr={IEEE Access}, 
   bibtex_show = {true},
@@ -35,6 +37,23 @@
   pdf={sm_predicting_epidemic_effects_2020.pdf},
   html={https://link.springer.com/chapter/10.1007/978-3-030-65347-7_35},
   code={https://github.com/smeznar/Epidemic-spreading-CN2020}
+@inproceedings{meznar2020spreading,
+  abbr={CN 2020}, 
+  bibtex_show = {true},
+  selected={true},
+  author="Mežnar, Sebastian and Lavrač, Nada and Škrlj, Blaž",
+  editor="Benito, Rosa M. and Cherifi, Chantal and Cherifi, Hocine and Moro, Esteban and Rocha, Luis Mateus and Sales-Pardo, Marta",
+  title="Prediction of the Effects of Epidemic Spreading with Graph Neural Networks",
+  booktitle="Complex Networks {\&} Their Applications IX",
+  year="2021",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="420--431",
+  isbn="978-3-030-65347-7",
+  abstract="Understanding how information propagates in real-life complex networks yields a better understanding of dynamical processes such as misinformation or epidemic spreading. With the recent resurgence of graph neural networks as a powerful predictive methodology, many network properties can be studied in terms of their predictability and as such offer a novel view on the studied process, with the direct application of fast predictions that are complementary to resource-intensive simulations. We investigated whether graph neural networks can be used to predict the effect of an epidemic, should it start from a given individual (patient zero). We reformulate this problem as node regression and demonstrate the high utility of network-based machine learning for a better understanding of the spreading effects. By being able to predict the effect of a given individual being the patient zero, the proposed approach offers potentially orders of magnitude faster risk assessment and potentially aids the adopted epidemic spreading analysis techniques.",
+  pdf={sm_predicting_epidemic_effects_2020.pdf},
+  html={https://link.springer.com/chapter/10.1007/978-3-030-65347-7_35},
+  code={https://github.com/smeznar/Epidemic-spreading-CN2020}
 }
 
 @misc{meznar2020PGDL,
@@ -46,8 +65,33 @@
   howpublished={NeurIPS 2020 competition},
   year={2020},
   abstract={The competition "Predicting Generalization in Deep Learning (PGDL)" aims to provide a platform for rigorous study of generalization of deep learning models and offer insight into the progress of understanding and explaining these models. This report presents the solution that was submitted by the user \emph{smeznar} which achieved the eight place in the competition. In the proposed approach, we create simple metrics and find their best combination with automatic testing on the provided dataset, exploring how combinations of various properties of the input neural network architectures can be used for the prediction of their generalization.},
+@misc{meznar2020PGDL,
+  abbr={NeurIPS 2020}, 
+  bibtex_show = {true},
+  author="Mežnar, Sebastian and Škrlj, Blaž",
+  title="Predicting Generalization in Deep Learning via Metric Learning -- PGDL Shared task",
+  arxiv={2012.09117},
+  howpublished={NeurIPS 2020 competition},
+  year={2020},
+  abstract={The competition "Predicting Generalization in Deep Learning (PGDL)" aims to provide a platform for rigorous study of generalization of deep learning models and offer insight into the progress of understanding and explaining these models. This report presents the solution that was submitted by the user \emph{smeznar} which achieved the eight place in the competition. In the proposed approach, we create simple metrics and find their best combination with automatic testing on the provided dataset, exploring how combinations of various properties of the input neural network architectures can be used for the prediction of their generalization.},
 }
 
+@article{meznar2021TransferGraphRegression,
+  abbr={Complex Systems}, 
+  bibtex_show = {true},
+  arxiv={2104.00088},
+  author="Mežnar, Sebastian and Lavrač, Nada and Škrlj, Blaž",
+  title="Transfer Learning for Node Regression Applied to Spreading Prediction",
+  journal={Complex Systems}, 
+  year={2021},
+  volume={30},
+  number={4}, 
+  pages={457 - 481},
+  doi={10.25088/ComplexSystems.30.4.457},
+  abstract={Learning from complex real-life networks is a lively research area, with recent advances in learning information-rich, low-dimensional network node representations. However, state-of-the-art methods are not necessarily interpretable and are therefore not fully applicable to sensitive settings in biomedical or user profiling tasks, where explicit bias detection is highly relevant. The proposed SNoRe (Symbolic Node Representations) algorithm is capable of learning symbolic, human-understandable representations of individual network nodes, based on the similarity of neighborhood hashes which serve as features. SNoRe's interpretable features are suitable for direct explanation of individual predictions, which we demonstrate by coupling it with the widely used instance explanation tool SHAP to obtain nomograms representing the relevance of individual features for a given classification. To our knowledge, this is one of the first such attempts in a structural node embedding setting. In the experimental evaluation on eleven real-life datasets, SNoRe proved to be competitive to strong baselines, such as variational graph autoencoders, node2vec and LINE. The vectorized implementation of SNoRe scales to large networks, making it suitable for contemporary network learning and analysis tasks.},
+  html={https://www.complex-systems.com/abstracts/v30_i04_a02/},
+  code={https://github.com/smeznar/Epidemic-spreading-CN2020},
+  abstract="Understanding how information propagates in real-life complex networks yields a better understanding of dynamic processes such as misinformation or epidemic spreading. The recently introduced branch of machine learning methods for learning node representations offers many novel applications, one of them being the task of spreading prediction addressed in this paper. We explore the utility of the state-of-the-art node representation learners when used to assess the effects of spreading from a given node, estimated via extensive simulations. Further, as many real-life networks are topologically similar, we systematically investigate whether the learned models generalize to previously unseen networks, showing that in some cases very good model transfer can be obtained. This paper is one of the first to explore transferability of the learned representations for the task of node regression; we show there exist pairs of networks with similar structure between which the trained models can be transferred (zero-shot) and demonstrate their competitive performance. To our knowledge, this is one of the first attempts to evaluate the utility of zero-shot transfer for the task of node regression.",
 @article{meznar2021TransferGraphRegression,
   abbr={Complex Systems}, 
   bibtex_show = {true},
