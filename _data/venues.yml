@@ -1,6 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"IEEE Access":
+  url: https://ieeeaccess.ieee.org/
+  color: "#c32b72"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Complex Systems":
+  url: https://www.complex-systems.com/
+  color: "#c32b72"
+
+"CN 2020":
+  url: https://2020.complexnetworks.org/
+  color: "#196ca3"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#606b70"
+
+"NeurIPS 2020":
+  url: https://nips.cc/Conferences/2020
+  color: "#196ca3"  

@@ -1,25 +1,27 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://kt.ijs.si/'>Departmant of Knowledge Technologies, Jožef Stefan Institute</a>. # Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office 69a</p>
+    <p>Teslova 30</p>
+    <p>1000 Ljubljana</p>
+    <p>Slovenia</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I’m a Ph.D. student at Jožef Stefan International Postgraduate School. My academic interests lie primarily in machine learning and data science, but I also enjoy mathematics and computer science. I mostly work on graph learning, representation learning, equation discovery, geometric deep learning, and interpretable machine learning.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I come from Piran, where I finished elementary school (OŠ Cirila Kosmača Piran) and high school (Srednja tehnična šola Koper). I got my bachelor’s degree in mathematics and computer science from the Faculty of Computer and Information Science in Ljubljana and my master’s degree from the same field at the Faculty of Mathematics and Physics in Ljubljana.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In my free time, I like to watch and play sports, mostly volleyball and football (soccer). My biggest achievement in volleyball is the title of national under-18 champions with GO Volley in the 2013/14 season. I also like reading, especially epic fantasy (for example the cosmere universe).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+If you want to enquire about my work, a collaboration, or to talk about mutual interests feel free to contact me through email.
