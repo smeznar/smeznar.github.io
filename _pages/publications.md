@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: publications chronological order. Blue tags represent conference papers, pink represent journal papers, and gray represent currently unpublished work.
-years: [2020, 2021]
+years: [2020, 2021, 2022]
 nav: true
 nav_order: 1
 ---

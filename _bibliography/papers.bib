@@ -68,7 +68,7 @@
   abstract="Understanding how information propagates in real-life complex networks yields a better understanding of dynamic processes such as misinformation or epidemic spreading. The recently introduced branch of machine learning methods for learning node representations offers many novel applications, one of them being the task of spreading prediction addressed in this paper. We explore the utility of the state-of-the-art node representation learners when used to assess the effects of spreading from a given node, estimated via extensive simulations. Further, as many real-life networks are topologically similar, we systematically investigate whether the learned models generalize to previously unseen networks, showing that in some cases very good model transfer can be obtained. This paper is one of the first to explore transferability of the learned representations for the task of node regression; we show there exist pairs of networks with similar structure between which the trained models can be transferred (zero-shot) and demonstrate their competitive performance. To our knowledge, this is one of the first attempts to evaluate the utility of zero-shot transfer for the task of node regression.",
 }
 
-@misc{meznar2021OntologyCompletion,
+@comment{meznar2021OntologyCompletion,
   abbr={arXiv}, 
   bibtex_show = {true},
   doi = {10.48550/ARXIV.2111.11710},
@@ -80,4 +80,21 @@
   arxiv = {2111.11710},
   abstract={The increasing amounts of semantic resources offer valuable storage of human knowledge; however, the probability of wrong entries increases with the increased size. The development of approaches that identify potentially spurious parts of a given knowledge base is thus becoming an increasingly important area of interest. In this work, we present a systematic evaluation of whether structure-only link analysis methods can already offer a scalable means to detecting possible anomalies, as well as potentially interesting novel relation candidates. Evaluating thirteen methods on eight different semantic resources, including Gene Ontology, Food Ontology, Marine Ontology and similar, we demonstrated that structure-only link analysis could offer scalable anomaly detection for a subset of the data sets. Further, we demonstrated that by considering symbolic node embedding, explanations of the predictions (links) could be obtained, making this branch of methods potentially more valuable than the black-box only ones. To our knowledge, this is currently one of the most extensive systematic studies of the applicability of different types of link analysis methods across semantic resources from different domains. },
   code={https://github.com/smeznar/link-analysis-meets-ontologies},
+}
+
+@article{meznar2022OntologyCompletion,
+  abbr={MAKE},
+  bibtex_show = {true},
+  code = {https://github.com/smeznar/ontology-completion-with-graph-learners},
+  author = "Mežnar, Sebastian and Bevec, Matej and Lavrač, Nada and Škrlj, Blaž",
+  title = {Ontology Completion with Graph-Based Machine Learning: A Comprehensive Evaluation},
+  journal = {Machine Learning and Knowledge Extraction},
+  volume = {4},
+  year = {2022},
+  number = {4},
+  pages = {1107--1123},
+  html = {https://www.mdpi.com/2504-4990/4/4/56},
+  issn = {2504-4990},
+  abstract = {Increasing quantities of semantic resources offer a wealth of human knowledge, but their growth also increases the probability of wrong knowledge base entries. The development of approaches that identify potentially spurious parts of a given knowledge base is therefore highly relevant. We propose an approach for ontology completion that transforms an ontology into a graph and recommends missing edges using structure-only link analysis methods. By systematically evaluating thirteen methods (some for knowledge graphs) on eight different semantic resources, including Gene Ontology, Food Ontology, Marine Ontology, and similar ontologies, we demonstrate that a structure-only link analysis can offer a scalable and computationally efficient ontology completion approach for a subset of analyzed data sets. To the best of our knowledge, this is currently the most extensive systematic study of the applicability of different types of link analysis methods across semantic resources from different domains. It demonstrates that by considering symbolic node embeddings, explanations of the predictions (links) can be obtained, making this branch of methods potentially more valuable than black-box methods.},
+  doi = {10.3390/make4040056}
 }
