@@ -7,14 +7,11 @@
             {%- if site.whatsapp_number -%}
             <a href="https://wa.me/{{ site.whatsapp_number }}" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
             {% endif %}
+            {%- if site.orcid_id -%}
+            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
+            {% endif %}
             {%- if site.scholar_userid -%}
             <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-            {% endif %}
-            {%- if site.github_username -%}
-            <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
-            {% endif %}
-            {%- if site.linkedin_username -%}
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             {% endif %}
             {%- if site.semanticscholar_id -%}
             <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
@@ -22,23 +19,23 @@
             {%- if site.publons_id -%}
             <a href="https://publons.com/a/{{ site.publons_id }}/" title="Publons"><i class="ai ai-publons"></i></a>
             {% endif %}
-            {%- if site.gitlab_username -%}
-            <a href="https://gitlab.com/{{ site.gitlab_username }}" title="GitLab"><i class="fab fa-gitlab"></i></a>
-            {% endif %}
             {%- if site.osf_id -%}
             <a href="https://osf.io/{{ site.osf_id }}/" title="Open Science Framework"><i class="ai ai-osf"></i></a>
             {% endif %}
             {%- if site.research_gate_profile -%}
             <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
             {% endif %}
+            {%- if site.scopus_id -%}
+            <a href="https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}" title="Scopus"><i class="ai ai-scopus"></i></a>
+            {% endif %}
+            {%- if site.github_username -%}
+            <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+            {% endif %}
+            {%- if site.linkedin_username -%}
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            {% endif %}
             {%- if site.twitter_username -%}
             <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
-            {% endif %}
-            {%- if site.instagram_id -%}
-            <a href="https://www.instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fab fa-instagram"></i></a>
-            {% endif %}
-            {%- if site.orcid_id -%}
-            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
             {% endif %}
             {%- if site.mastodon_username -%}
             <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
@@ -67,6 +64,9 @@
             {%- if site.keybase_username -%}
             <a href="https://keybase.io/{{ site.keybase_username }}" title="Keybase"><i class="fab fa-keybase"></i></a>
             {% endif %}
+            {%- if site.gitlab_username -%}
+            <a href="https://gitlab.com/{{ site.gitlab_username }}" title="GitLab"><i class="fab fa-gitlab"></i></a>
+            {% endif %}
             {%- if site.dblp_url -%}
             <a href="{{ site.dblp_url }}" title="DBLP"><i class="ai ai-dblp"></i></a>
             {% endif %}
@@ -87,6 +87,9 @@
             {% endif %}
             {%- if site.unsplash_id -%}
             <a href="https://unsplash.com/@{{ site.unsplash_id }}" title="Unsplash"><i class="fab fa-unsplash"></i></a>
+            {% endif %}
+            {%- if site.instagram_id -%}
+            <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fab fa-instagram"></i></a>
             {% endif %}
             {%- if site.facebook_id -%}
             <a href="https://facebook.com/{{ site.facebook_id }}" title="Facebook"><i class="fab fa-facebook"></i></a>

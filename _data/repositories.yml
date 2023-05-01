@@ -1,11 +1,12 @@
 github_users:
-  - smeznar
+  - torvalds
+  - alshedivat
 
 github_repos:
-  - smeznar/SNoRe
-  - brencej/ProGED
-  - smeznar/Epidemic-spreading-CN2020
-  - smeznar/link-analysis-meets-ontologies
-  - smeznar/compilers
-  - smeznar/2048
-  - keon/algorithms 
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
