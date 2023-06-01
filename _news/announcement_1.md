@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-08-22 10:00:00-0400
+date: 2015-10-22 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Updated personal page is up :smile:
+A simple inline announcement.
