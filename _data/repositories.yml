@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
+  - smeznar
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - smeznar/HVAE
+  - smeznar/SymbolicRegressionToolkit
+  - smeznar/BED
+  - smeznar/SNoRe
+  - smeznar/Epidemic-spreading-CN2020
+  - smeznar/link-analysis-meets-ontologies
