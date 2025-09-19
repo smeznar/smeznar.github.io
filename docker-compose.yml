@@ -1,7 +1,6 @@
-# this file uses prebuilt image in dockerhub
 services:
   jekyll:
-    image: amirpourmand/al-folio:latest
+    # Use 'build' instead of 'image' to build the image from your local Dockerfile
     build: .
     ports:
       - 8080:8080
